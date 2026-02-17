@@ -6,4 +6,4 @@ pubDate: 2026-02-17
 
 This is the first real note.
 
-![screenshot](/images/hello-world/screenshot.svg)
+![screenshot](./screenshot.svg)
