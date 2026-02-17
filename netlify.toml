@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run dev"
+  port = 4321
+  targetPort = 4321
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/"
+  status = 301

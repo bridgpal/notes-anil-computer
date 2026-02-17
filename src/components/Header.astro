@@ -1,0 +1,49 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav class="nav panel">
+		<div class="left">
+			<a class="title" href="/">{SITE_TITLE}</a>
+			<span class="prompt" aria-hidden="true">&gt;</span>
+		</div>
+		<div class="links">
+			<HeaderLink href="/">Index</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
+		</div>
+	</nav>
+</header>
+
+<style>
+	header { padding: 1rem; }
+	.nav {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+	.left { display: flex; align-items: baseline; gap: 0.5rem; }
+	.title { font-weight: 700; text-decoration: none; }
+	.prompt { color: var(--muted); user-select: none; }
+	.title:hover { text-decoration: underline; }
+	.links :global(a) {
+		text-decoration: none;
+		padding: 0.15rem 0.1rem;
+		color: var(--muted);
+	}
+	.links :global(a:hover) {
+		color: var(--link);
+		text-decoration: underline;
+	}
+	.links :global(a.active) {
+		color: var(--ink);
+		text-decoration: underline;
+		text-decoration-thickness: 2px;
+		text-underline-offset: 2px;
+	}
+	@media (max-width: 720px) {
+		.nav { flex-direction: column; align-items: flex-start; }
+	}
+</style>

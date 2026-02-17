@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#303446"/>
+  <rect x="36" y="36" width="1128" height="558" rx="24" fill="#414559" stroke="#626880" stroke-width="6"/>
+  <text x="80" y="130" fill="#c6d0f5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="44" font-weight="700">notes.anil.computer</text>
+  <text x="80" y="210" fill="#a5adce" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="28">/ hello-world</text>
+  <text x="80" y="300" fill="#8caaee" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="26">screenshot.svg</text>
+  <text x="80" y="360" fill="#a6d189" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="22">(replace me with a real image later)</text>
+</svg>
