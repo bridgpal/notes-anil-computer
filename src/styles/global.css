@@ -27,7 +27,7 @@ body {
 	background: var(--bg);
 	color: var(--ink);
 	font-family: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.65;
 }
 
@@ -149,7 +149,7 @@ td, th {
 textarea, input {
 	width: 100%;
 	font-family: inherit;
-	font-size: 14px;
+	font-size: 15px;
 	color: var(--ink);
 	background: rgba(35, 38, 52, 0.35);
 	border: var(--bw) solid rgba(98,104,128,0.9);
@@ -171,6 +171,6 @@ textarea, input {
 }
 
 @media (max-width: 720px) {
-	body { font-size: 13px; }
+	body { font-size: 14px; }
 	main { padding-top: 0.75rem; }
 }
