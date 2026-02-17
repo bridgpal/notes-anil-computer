@@ -18,6 +18,9 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 			.meta { display: flex; gap: 1rem; flex-wrap: wrap; }
 			.meta span { color: var(--muted); }
 			.title { margin: 0 0 0.5rem 0; }
+			.prose { line-height: 1.85; }
+			.prose :global(p) { margin: 0 0 1.1rem 0; }
+			.prose :global(li) { margin: 0.35rem 0; }
 			.prose :global(a) { word-break: break-word; }
 		</style>
 	</head>
